@@ -6,4 +6,4 @@
 3. Running psql
 4. Making a query
 
-![Alt Text](https://imgur.com/JhZApLI)
+![Alt Text](https://i.imgur.com/tuCwJJ5.mp4)
