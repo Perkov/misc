@@ -8,7 +8,7 @@
 ```
     select * from jsontest where(to_jsonb->>'b')::int =0 and(to_jsonb->>'c')::int =0;
 ```
-5. Counting number of occurences satisfying given condition 
+5. Counting number of occurences which satisfy given conditions: 
 ```
     select count(*) from jsontest where(to_jsonb->>'b')::int =0 and(to_jsonb->>'c')::int =0;
 ```
