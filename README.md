@@ -8,8 +8,11 @@
 ```
     select * from jsontest where(to_jsonb->>'b')::int =0 and(to_jsonb->>'c')::int =0;
 ```
+5. Counting occurences which satisfy given condition 
+```
+select count(*) from jsontest where(to_jsonb->>'b')::int =0 and(to_jsonb->>'c')::int =0;
+``
 
 
 
 
-![Alt Text](https://i.imgur.com/CdKwRiD.gif)
